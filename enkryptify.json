@@ -6,14 +6,14 @@
             "bin": [
                 "enkryptify.exe"
             ],
-            "hash": "f426838ad6e9feffa5c030d98ec6ff00442fca51405725e12466a0691fff2082"
+            "hash": "283d38efd51647f19253e8240196408a6fffaba30bb40437ac37ff1d8b467233"
         },
         "arm64": {
             "url": "https://github.com/Enkryptify/cli/releases/download/v0.1.1/enkryptify_Windows_arm64.zip",
             "bin": [
                 "enkryptify.exe"
             ],
-            "hash": "633f97457c9088a0c389e44a76eb3d7fdb65b490887327f4e37ba6eac1b94e95"
+            "hash": "394855ceb31ce3e6d6a2bb61820f536f2070017f6db055cc58bdff610e7cb21a"
         }
     },
     "homepage": "https://enkryptify.com",
