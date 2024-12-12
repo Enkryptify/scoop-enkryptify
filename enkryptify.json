@@ -1,0 +1,22 @@
+{
+    "version": "0.1.1",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Enkryptify/cli/releases/download/v0.1.1/enkryptify_Windows_x86_64.zip",
+            "bin": [
+                "enkryptify.exe"
+            ],
+            "hash": "f426838ad6e9feffa5c030d98ec6ff00442fca51405725e12466a0691fff2082"
+        },
+        "arm64": {
+            "url": "https://github.com/Enkryptify/cli/releases/download/v0.1.1/enkryptify_Windows_arm64.zip",
+            "bin": [
+                "enkryptify.exe"
+            ],
+            "hash": "633f97457c9088a0c389e44a76eb3d7fdb65b490887327f4e37ba6eac1b94e95"
+        }
+    },
+    "homepage": "https://enkryptify.com",
+    "license": "GPL-3.0-only",
+    "description": "Official Enkryptify CLI for injecting secrets into your codebase"
+}
