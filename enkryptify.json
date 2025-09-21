@@ -1,19 +1,19 @@
 {
-    "version": "0.1.5",
+    "version": "0.1.6",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Enkryptify/cli/releases/download/v0.1.5/enkryptify_Windows_x86_64.zip",
+            "url": "https://github.com/Enkryptify/cli/releases/download/v0.1.6/enkryptify_Windows_x86_64.zip",
             "bin": [
                 "enkryptify.exe"
             ],
-            "hash": "c7083682abff4be85dc9389348e942689980c1ea3e8f6714fdcce67f428480c9"
+            "hash": "508203800e02e7fd2fb3c8d9ead781efa031b1b4f6e64d8ba7740e4da3fbc8d9"
         },
         "arm64": {
-            "url": "https://github.com/Enkryptify/cli/releases/download/v0.1.5/enkryptify_Windows_arm64.zip",
+            "url": "https://github.com/Enkryptify/cli/releases/download/v0.1.6/enkryptify_Windows_arm64.zip",
             "bin": [
                 "enkryptify.exe"
             ],
-            "hash": "e5889e12f7505fad7e2e061b6745c3e30a33292a8d4982c8607c7023044cadcc"
+            "hash": "e1b7bdfe4a314b83ee79734fb9c5100fd992c5eb2e8b4eae52e7bec1bcae4d19"
         }
     },
     "homepage": "https://enkryptify.com",
