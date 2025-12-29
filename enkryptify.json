@@ -1,22 +1,18 @@
 {
-    "version": "0.1.10",
-    "architecture": {
-        "64bit": {
-            "url": "https://github.com/Enkryptify/cli/releases/download/v0.1.10/enkryptify_Windows_x86_64.zip",
-            "bin": [
-                "ek.exe"
-            ],
-            "hash": "68c14923c905599936354910ccf8b69846fa790596f0e5fa39fb295c6c72b138"
-        },
-        "arm64": {
-            "url": "https://github.com/Enkryptify/cli/releases/download/v0.1.10/enkryptify_Windows_arm64.zip",
-            "bin": [
-                "ek.exe"
-            ],
-            "hash": "4c6c1c61fe92ec1f16b4b30f690c837e9fdd71a5e57563a74d9e9bc3c3326258"
-        }
-    },
-    "homepage": "https://enkryptify.com",
-    "license": "GPL-3.0-only",
-    "description": "Official Enkryptify CLI for injecting secrets into your codebase"
+  "version": "0.2.0",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/Enkryptify/cli/releases/download/v0.2.0/enkryptify_Windows_x86_64.zip",
+      "hash": "f6711efa217229fb5411a0cd6563ed7a00d07d7554df1512869a90eaeec8a67e"
+    }
+  },
+  "bin": "ek.exe",
+  "psmodule": {
+    "name": "enkryptify-completion",
+    "root": "enkryptify-completion"
+  },
+  "post_install": "Import-Module enkryptify-completion -ErrorAction SilentlyContinue",
+  "homepage": "https://enkryptify.com",
+  "description": "Official Enkryptify CLI for injecting secrets into your codebase",
+  "license": "GPL-3.0-only"
 }
