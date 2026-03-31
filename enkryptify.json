@@ -1,9 +1,9 @@
 {
-  "version": "0.2.8",
+  "version": "0.3.0",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/Enkryptify/cli/releases/download/v0.2.8/enkryptify_Windows_x86_64.zip",
-      "hash": "a181f0c20fa665102c9bf36fe789f50d3e9e07283f290fb7dfd882932d0e884e"
+      "url": "https://github.com/Enkryptify/cli/releases/download/v0.3.0/enkryptify_Windows_x86_64.zip",
+      "hash": "66bcd370ffca686d4b325aee6eb4ce975360f857b5f5f1b2fee6db2dce4dffc1"
     }
   },
   "bin": "ek.exe",
@@ -14,5 +14,5 @@
   "post_install": "Import-Module enkryptify-completion -ErrorAction SilentlyContinue",
   "homepage": "https://enkryptify.com",
   "description": "Official Enkryptify CLI for injecting secrets into your codebase",
-  "license": "GPL-3.0-only"
+  "license": "MIT"
 }
