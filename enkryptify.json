@@ -1,9 +1,9 @@
 {
-  "version": "0.4.1",
+  "version": "0.4.2",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/Enkryptify/cli/releases/download/v0.4.1/enkryptify_Windows_x86_64.zip",
-      "hash": "585d0c755017af089119779ad843d1ebb63f1092a2a62eb53dc43cede96089aa"
+      "url": "https://github.com/Enkryptify/cli/releases/download/v0.4.2/enkryptify_Windows_x86_64.zip",
+      "hash": "a4fa5cd29749124c7b382f61dca201462b679778c7c35d4a0f939ce546bc41ad"
     }
   },
   "bin": "ek.exe",
